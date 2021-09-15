@@ -11,6 +11,6 @@ export class HelloWorldService {
   constructor(private http: HttpClient) {
   }
   executeHelloWorldService() {
-      return this.http.get<Message>('http://localhost:8080/greeting');
+      return this.http.get<Message>('http://localhost:8080/api/v1/greeting');
   }
 }
