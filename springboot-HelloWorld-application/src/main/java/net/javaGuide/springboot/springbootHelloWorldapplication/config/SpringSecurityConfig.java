@@ -24,4 +24,15 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
             .and()
             .httpBasic();
     }
+    
+
 }
+    
+    
+    
+    
+    
+    
+    
+    
+   

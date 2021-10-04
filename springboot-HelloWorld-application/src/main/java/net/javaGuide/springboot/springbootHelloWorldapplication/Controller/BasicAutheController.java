@@ -15,6 +15,7 @@ public class BasicAutheController {
 	
     @GetMapping(path = "/basicauth")
     public AuthenticationBean basicauth() {
+    	System.out.println("in basicauth");
         return new AuthenticationBean("You are authenticated");
     }
 }
